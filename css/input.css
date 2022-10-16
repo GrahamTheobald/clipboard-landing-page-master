@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply rounded-full text-white py-3 px-4 shadow-inner font-bold
+    }
+    .btn-cyan {
+        @apply btn bg-StrongCyan
+    }
+    .btn-blue {
+        @apply btn bg-LightBlue
+    }
+}
