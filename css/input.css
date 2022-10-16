@@ -6,7 +6,7 @@
 
 @layer components {
     .btn {
-        @apply rounded-full text-white py-3 px-4 shadow-inner font-bold
+        @apply rounded-full text-white py-3 px-4 shadow-inner font-bold hover:opacity-90
     }
     .btn-cyan {
         @apply btn bg-StrongCyan
@@ -14,4 +14,10 @@
     .btn-blue {
         @apply btn bg-LightBlue
     }
+}
+
+
+.filter:hover {
+    cursor: pointer;
+    filter: brightness(0%) saturate(100%) invert(56%) sepia(46%) saturate(582%) hue-rotate(122deg) brightness(97%) contrast(101%)
 }
